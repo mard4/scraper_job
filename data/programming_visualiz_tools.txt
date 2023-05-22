@@ -1,0 +1,479 @@
+jacquard machine
+begriffsschrift
+plankalkül (year of conceptualization)
+eniac coding system
+eniac short code
+arc/birkbeck assembler
+plankalkül (year of concept publication)
+edsac initial orders
+short code (originally known as brief code)
+short code (for univac i)
+superplan
+algae
+intermediate programming language
+boehm unnamed coding system
+klammerausdrücke
+stanislaus (notation)
+sort merge generator
+short code (for univac ii)
+a-0
+glennie autocode
+operator programming
+editing generator
+compool
+speedcoding
+read/print
+laning and zierler system
+mark i autocode
+fortran (concept)
+arith-matic
+math-matic
+matrix math
+ipl i (concept)
+address programming language (with pointers)
+flow-matic
+bacaic
+pact i
+freiburger code[3][4]
+sequentielle formelübersetzung
+it
+print
+ipl ii (implementation)
+lisp (concept)
+comtran
+george
+fortran i (implementation)
+unicode
+comit (concept)
+fortran ii
+algol 58 (ial)
+ipl v
+apt
+fact
+cobol (concept)
+jovial
+lisp (implementation)
+mad – michigan algorithm decoder
+trac (concept)
+algol 60
+cobol 61 (implementation)
+comit (implementation)
+gpss
+fortran iv
+apl (concept)
+simula (concept)
+snobol
+cpl (concept)
+snobol3
+algol 68 (concept)
+joss i
+mimic
+cowsel
+pl/i (concept)
+basic
+ibm rpg
+mark-iv
+speakeasy-2
+trac (implementation)
+p′′
+iitran
+rpg ii
+mad/i (concept)
+telcomp
+atlas autocode
+joss ii
+algol w
+fortran 66
+iswim (concept)
+coral66
+apl (implementation)[5]
+bcpl
+mumps
+simula 67 (implementation)
+interlisp
+exapt
+snobol4
+xpl
+algol 68 (unesco/ifip standard)
+pop-1
+dibol-8
+forth (concept)
+logo
+mapper
+refal (implementation)
+ttm (implementation)
+pilot
+pl/i (implementation)
+b
+polymorphic programming language (ppl)
+setl
+tutor
+edinburgh imp
+forth (implementation)
+pop-2
+sail
+pascal
+bliss
+krl
+compiler description language (cdl)
+smalltalk-72
+pl/m
+c
+intercal
+prolog
+structured query language (sql)
+comal
+ml
+lis
+speakeasy-3
+clu
+grass
+basic four
+prose modeling language
+abc
+irvine dataflow (concept)
+prose modeling language time-sharing version
+scheme
+altair basic
+cs-4
+modula
+plus
+smalltalk-76
+mesa
+ratfor
+s
+sas
+integer basic
+fp
+bourne shell (sh)
+commodore basic
+idl
+standard mumps
+icon (concept)
+euclid
+applesoft basic
+rapt
+c shell
+rpg iii
+hal/s
+applesoft ii basic
+irvine dataflow (implementation)
+matlab
+small
+visicalc
+ti basic (ti 99/4a)
+modula-2
+rexx
+awk
+icon (implementation)
+vulcan dbase-ii
+ada 80 (mil-std-1815)
+c with classes
+applesoft iii
+apple iii microsoft basic
+cbasic
+smalltalk-80
+ti extended basic
+bbc basic
+ibm basica
+speakeasy-iv
+draco
+postscript
+turing
+gw-basic
+turbo pascal
+ada 83 (ansi/mil-std-1815a)
+objective-c
+c++[7]
+true basic
+occam
+abap
+kornshell (ksh)
+clascal
+clipper
+common lisp
+coq
+rpl
+standard ml
+redcode
+opl
+paradox
+quickbasic
+clarion
+corvision
+eiffel
+gfa basic
+informix-4gl
+labview
+miranda
+object pascal
+promal
+erlang
+ada iso 8652:1987
+self (concept)
+occam 2
+hypertalk
+perl
+oberon
+mathematica (wolfram language)
+turbo basic
+clean
+octave
+tcl
+stos basic
+actor
+object rexx
+spark
+a+
+hamilton c shell
+c90
+turbo pascal oop
+modula-3
+powerbasic
+vissim
+lpc
+bash
+magik
+sather
+amos basic
+ampl
+object oberon
+j
+haskell
+eulisp
+z shell (zsh)
+skill
+gnu e
+html
+oberon-2
+oz
+q
+python
+visual basic
+borland pascal
+dylan
+s-lang
+self (implementation)
+amiga e
+brainfuck
+livecode transcript
+applescript
+k
+lua
+r
+zpl
+newtonscript
+euphoria
+claire
+ansi common lisp
+rapid
+pike
+ans forth
+ada 95
+borland delphi
+coldfusion (cfml)
+java
+livescript
+mercury
+php
+ruby
+javascript
+racket
+css
+curl
+lasso
+perl data language (pdl)
+vbscript
+ocaml
+netrexx
+component pascal
+e
+pico
+squeak
+ecmascript
+f-script
+islisp
+tea
+rebol
+logtalk
+actionscript
+standard c++
+m2001
+purebasic
+unrealscript
+xslt (+ xpath)
+xojo (realbasic at the time)
+c99
+gambas
+game maker language (gml)
+harbour
+join java
+darkbasic
+c#
+joy
+aspectj
+d
+processing
+visual basic .net
+gdscript (gds)
+shakespeare programming language
+io
+gosu
+scratch
+nemerle
+factor
+scala
+c++03
+squirrel
+boo
+subtext
+alma-0
+freebasic
+groovy
+little b
+fantom
+f#
+haxe
+oxygene
+pwct
+seed7
+cobra
+windows powershell
+optimj
+fortress
+vala
+ada 2005
+agda
+qb64
+clojure
+lolcode
+oberon-07
+swift (parallel scripting language)
+nim
+genie
+pure
+chapel
+go
+coffeescript
+idris
+parasail
+whiley
+dafny
+rust
+c11
+ceylon
+dart
+c++11
+kotlin
+red
+opa
+elixir
+elm
+typescript
+julia
+p
+ada 2012
+p4
+purescript
+hopscotch
+cuneiform
+lean
+crystal
+hack
+swift
+c++14
+solidity
+raku
+zig
+reason
+ring
+c++17
+ballerina
+q#
+c17
+fortran 2018
+bosque
+c++20
+microsoft power fx
+carbon
+power bi
+tableau
+qlik sense
+thoughtspot
+oracle analytics
+google looker
+sap analytics cloud
+google analytics
+microsoft excel
+google data studio
+ibm cognos
+tibco spotfire
+zoho analytics
+whatagraph
+query.me
+sisense
+metabase
+apache spark
+python
+r
+splunk
+sas forecasting
+highcharts
+jupyter notebook
+rapidminer
+conclusion
+image source
+link
+hevo data,
+100+ data sources
+power bi
+tableau
+qlik sense
+thoughtspot
+oracle analytics
+google looker
+sap analytics cloud
+google analytics
+microsoft excel
+google data studio
+ibm cognos
+tibco spotfire
+zoho analytics
+whatagraph
+query.me
+sisense
+metabase
+apache spark
+python
+r
+splunk
+sas forecasting
+highcharts
+jupyter notebook
+rapidminer
+image source
+power bi
+image source
+tableau
+image source
+qlik
+image source
+thoughtspot
+image source
+oracle analytics cloud
+image source
+google looker
+image source
+sap
+image source
+google analytics
+microsoft excel
+google data studio
+ibm cognos
+tibco spotfire
+zoho analytics
+whatagraph
+query.me
+hevo data
+100+ sources
+pricing
