@@ -10,7 +10,7 @@ This project is a web scraping and analysis tool that focuses on two specific ta
 5. [Analysis](#analysis)
 6. [Usage](#usage)
 7. [Contributing](#contributing)
-8. [License](#license)
+<!-- 8. [License](#license) -->
 
 ## Introduction
 Web scraping is the process of extracting data from websites. In this project, we leverage web scraping techniques to gather job data from Indeed, a popular job listing website, and content from Wikipedia, an online encyclopedia. The collected data can then be used for various purposes such as analysis, visualization, or research.
@@ -20,11 +20,7 @@ To use this tool, make sure you have the following dependencies installed:
 - Python 3.x
 - Beautiful Soup (`beautifulsoup4`)
 - Requests (`requests`)
-
-You can install the required packages by running the following command:
-```
-pip install beautifulsoup4 requests
-```
+- nklt
 
 ## Indeed Scraper
 The Indeed scraper is designed to extract job postings from Indeed based on specific search criteria. It uses the BeautifulSoup library to parse the HTML structure of the search results page and retrieves relevant job details such as title, company, location, salary, and job description. The scraper supports pagination, allowing you to retrieve multiple pages of results.
@@ -38,6 +34,10 @@ After collecting data from Indeed and Wikipedia, you can perform various analyse
 1. Job market trends: Analyze the scraped job data from Indeed to identify trends in specific industries, job titles, or locations.
 2. Salary comparison: Compare salaries across different job postings to gain insights into salary ranges and variations.
 3. Natural language processing: Apply text analysis techniques to job descriptions or Wikipedia content to extract keywords, perform sentiment analysis, or identify patterns.
+
+
+![plot](./static/barchart.png)
+![word](./static/wordcloud.png)
 
 Feel free to explore additional analysis possibilities based on your specific requirements and interests.
 
@@ -54,5 +54,5 @@ Make sure to handle the scraped data responsibly and respect the terms of servic
 ## Contributing
 Contributions to this project are welcome! If you have any suggestions, bug reports, or improvements, please submit a pull request or open an issue on the project's GitHub repository.
 
-## License
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code for your own purposes.
+<!-- ## License
+This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code for your own purposes. -->
