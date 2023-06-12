@@ -7,7 +7,6 @@ The project is divided into two parts:
 1. Scraper scripts that focus on two specific tasks: scraping job data from Indeed and scraping content from Wikipedia.
 2. An analysis script that retrieves the scraped data for analysis purposes.
 
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Setup](#setup)
@@ -62,18 +61,21 @@ After collecting data from Indeed and Wikipedia, the perfomed analysis are:
 3. 👩🏻‍💻 Natural language processing to job descriptions to connect with Wikipedia programming languages to extract the most requested ones.
 
 Furthers analysis that could be used are:
-1. Salary comparison: Compare salaries across different job postings to gain insights into salary ranges and variations.
-2. Job market trends: Analyze the scraped job data from Indeed to identify trends in specific industries, job titles, or locations.
+- Salary comparison: Compare salaries across different job postings to gain insights into salary ranges and variations.
+- Job market trends: Analyze the scraped job data from Indeed to identify trends in specific industries, job titles, or locations.
 
 ## Usage
 To use the web scraping and analysis tool, follow these steps:
 
-1. In Analysis.py configure the search parameters for the Indeed scraper, such as the job title and location.
-2. Run the Indeed scraper to collect job data from Indeed.
-3. Run the Wikipedia scraper to collect programming languages from Wikipedia/Other websites.
-4. Perform analysis on the obtained data using your preferred analysis techniques.
+1. Run only Analysis.py. First onfigure the search parameters for the Indeed scraper, such as the job title and location.
 
-Make sure to handle the scraped data responsibly and respect the terms of service of the websites you are scraping.
+2. Run the Indeed scraper to collect job data from Indeed.
+    !Important if you want to search for more jobs (scraper will make the execution slower) you need to modify the parameters in this for loop (for example from page 1 to 5 walking by 1 will take about 5-10 minutes)
+    ![word](./img/search_more_jobs.png)
+
+3. Run the Wikipedia scraper to collect programming languages from Wikipedia/Other websites (execution time: 2 minutes).
+
+4. Perform analysis on the obtained data using your preferred analysis techniques.
 
 ## Contributing
 Contributions to this project are welcome! If you have any suggestions, bug reports, or improvements, please submit a pull request or open an issue on the project's GitHub repository.
