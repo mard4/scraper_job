@@ -71,7 +71,7 @@ To use the web scraping and analysis tool, follow these steps:
 
 2. Run the Indeed scraper to collect job data from Indeed.
     !Important if you want to search for more jobs (scraper will make the execution slower) you need to modify the parameters in this for loop (for example from page 1 to 5 walking by 1 will take about 5-10 minutes)
-    ![word](./img/search_more_jobs.png)
+    ![word](./img/search_more_jobs.jpg)
 
 3. Run the Wikipedia scraper to collect programming languages from Wikipedia/Other websites (execution time: 2 minutes).
 
