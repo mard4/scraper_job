@@ -56,7 +56,7 @@ def search_jobs(current_url):
     #driver = webdriver.Chrome(PATH)
     driver = webdriver.Chrome(options=chrome_options)
 
-    for i in range(0,5, 1):    # da pagina 0 a pagina 1, al passo di 1
+    for i in range(0,2, 1):    # from page 0 to page 2, walk by 1
         driver.get(current_url+str(i))
         driver.implicitly_wait(5)
 

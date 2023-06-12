@@ -12,6 +12,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+from collections import Counter
 
 from scrapers.ScraperWikipedia import scrape_programming_languages
 from scrapers.ScraperIndeed import scrape_indeed
@@ -115,26 +116,31 @@ def wordCount_Freq(filtered_list):
     return word_count
 
 
-# Key Words (programming languages extracted in wikipedia)
-def indeed_programming_languages():
-    # Open file with all programming languages    
-    programming_languages = programming_languages.split("\n") # replacing end splitting the text when newline ('\n') is seen
-    
+def indeed_programming_languages(descriptions):
+    """Open file with all programming languages to match with descriptions"""
+    programming_languages = programming_languages0[0].to_list()
     languages_inDescriptions = []
 
     for language in programming_languages:
-        language = strip_puntuactions(language)
-        for description in descriptions:
+        #language = strip_punctuation(language)
+        for description in filtered_list:
             if language.lower() in description.lower():
                 languages_inDescriptions.append(language)
                 break
     
-    return languages_inDescriptions
+    # Count the occurrences of each language
+    language_counts = Counter(languages_inDescriptions)
+    
+    # Create a DataFrame from the language counts
+    df = pd.DataFrame(list(language_counts.items()), columns=['Language', 'Occurrences'])
+    
+    return df
+
 
 # def main():
 filtered_list = exclude_stop_words(descriptions)
 word_count = wordCount_Freq(filtered_list)
-languages_inDescriptions = indeed_programming_languages()
+languages_inDescriptions = indeed_programming_languages(filtered_list)
     
 # main()
 
@@ -149,3 +155,5 @@ def create_word_cloud(word_count):
 
 # word_count is the dictionary of word frequency
 create_word_cloud(word_count)
+
+print(languages_inDescriptions)
