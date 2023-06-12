@@ -20,15 +20,15 @@ The project is divided into two parts:
 
 ## Introduction
 
-#### What is web scraping?
+#### 🔻 What is web scraping? 
 
 Web scraping is the process of extracting data from websites.
 
-#### Why is it needed in this project?
+#### 🔻 Why is it needed in this project?
 
 In this project, we utilize web scraping techniques to gather job data from Indeed, a popular job listing website, and content from Wikipedia for natural language processing purposes.
 
-#### Why?
+#### 🚩 What is the purpose?
 
 The collected data can be used for various purposes such as analysis, visualization, or research.
 
@@ -38,39 +38,39 @@ To use this tool, make sure you have the following dependencies installed:
 - Python 3.x
 - Requests (`requests`)
 - Beautiful Soup (`beautifulsoup4`)
-- Selenium
-- nklt
-- plotly
-- wordcloud
+- Selenium (`selenium`)
+- nklt (`nklt`)
+- plotly (`plotly`)
+- wordcloud (`wordcloud`)
 
-## Indeed Scraper
+## 💼 Indeed Scraper
 The Indeed scraper is designed to extract job postings from Indeed based on specific search criteria (type of work, location).
  It uses the BeautifulSoup library to parse the HTML structure of the search results page and retrieves relevant job details such as title, company, location, salary, and job description. The scraper supports pagination, allowing you to retrieve multiple pages of results.
 
-## Wikipedia Scraper
+## 📚 Wikipedia Scraper
 The Wikipedia scraper allows you to extract all programming languages from Wikipedia page. 
 
-## Analysis
+## 📊 Analysis
 After collecting data from Indeed and Wikipedia, the perfomed analysis are:
 
-1. Ratings comparison: Compare ratings across different job postings to see the differences or correlations between companies, locations, type of jobs.
+1. 📈 Ratings comparison: Compare ratings across different job postings to see the differences or correlations between companies, locations, type of jobs.
 ![plot](./img/barchart_ratings.jpg)
 
-2. Natural language processing: Apply text analysis techniques to job descriptions to extract keywords, perform sentiment analysis, or identify patterns.
+2. 💬 Natural language processing: Apply text analysis techniques to job descriptions to extract keywords, perform sentiment analysis, or identify patterns.
 ![word](./img/wordcloud_milan.png)
 
-3. Natural language processing to job descriptions to connect with Wikipedia programming languages to extract the most requested ones.
+3. 👩🏻‍💻 Natural language processing to job descriptions to connect with Wikipedia programming languages to extract the most requested ones.
 
-The furthers analysis that could be used are:
+Furthers analysis that could be used are:
 1. Salary comparison: Compare salaries across different job postings to gain insights into salary ranges and variations.
 2. Job market trends: Analyze the scraped job data from Indeed to identify trends in specific industries, job titles, or locations.
 
 ## Usage
 To use the web scraping and analysis tool, follow these steps:
 
-1. Configure the search parameters for the Indeed scraper, such as the job title and location.
+1. In Analysis.py configure the search parameters for the Indeed scraper, such as the job title and location.
 2. Run the Indeed scraper to collect job data from Indeed.
-3. Provide a Wikipedia URL to scrape content from a specific Wikipedia page.
+3. Run the Wikipedia scraper to collect programming languages from Wikipedia/Other websites.
 4. Perform analysis on the obtained data using your preferred analysis techniques.
 
 Make sure to handle the scraped data responsibly and respect the terms of service of the websites you are scraping.
