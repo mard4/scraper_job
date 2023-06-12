@@ -13,8 +13,8 @@ nltk.download('punkt')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
-from ScraperWikipedia import scrape_programming_languages
-from ScraperIndeed import scrape_indeed
+from scrapers.ScraperWikipedia import scrape_programming_languages
+from scrapers.ScraperIndeed import scrape_indeed
 
 
 programming_languages0 = scrape_programming_languages()
