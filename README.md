@@ -54,7 +54,7 @@ The Wikipedia scraper allows you to extract all programming languages from Wikip
 After collecting data from Indeed and Wikipedia, the perfomed analysis are:
 
 1. 📈 Ratings comparison: Compare ratings across different job postings to see the differences or correlations between companies, locations, type of jobs.
-![plot](./img/barchart_ratings.jpg)
+![plot](./img/barchart_ratings_milan.jpg)
 
 2. 💬 Natural language processing: Apply text analysis techniques to job descriptions to extract keywords, perform sentiment analysis, or identify patterns.
 ![word](./img/wordcloud_milan.png)
